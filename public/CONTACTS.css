@@ -1,0 +1,217 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+ 
+
+  .header {
+    background-color: #fff;
+    padding: -20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+
+  .main-container {
+    background-color: #f6f6f6;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem;
+  }
+
+  .nav-item {
+    list-style: none;
+    margin-right: 20px;
+    font-family: "Roboto",sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+  
+  }
+  .img1{
+    position: absolute;
+    left: 20px;
+  }
+  .one, h1,p{
+    font-weight: normal;
+    background-color: #eee;
+    margin-left: 20px;
+    padding: 20px;
+  }
+  .a , h3{
+    position: absolute;
+    right: 30px;
+    top:100px;
+  } 
+.col-12{
+    position: relative;
+    width: 100%;
+    margin-top: 20rem;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.form-contact .form-group {
+   
+    margin-bottom: 15px;
+}
+.form-group {
+   
+    margin-bottom: 1rem;
+}
+ textarea {
+    margin-top: 20px; 
+    margin-left: 20px;
+    width: 70%;
+    height: 35vh; 
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+body {
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #797979;
+}
+.form-contact .form-control {
+    border: 1px solid #f0e9ff;
+    border-radius: 5px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+}
+input{
+    margin-left: 20px;
+    display: block;
+    width: 35%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+   
+}
+.form-group{
+    display: flex;
+    
+}
+.main-footer{
+    /* padding-top: 10px;
+    padding-right: 20px; */
+    margin-top: 20rem;
+    background-color: black;
+    display: flex;
+    /* margin-left: 10px; */
+  }
+  .single-footer{
+    
+    margin-top: 5rem;
+    margin-left: 4rem;
+    h4 {
+      color: #ffffff;
+        margin-top: -20px;
+        text-align: center;
+        font-family: "Roboto",sans-serif;
+        font-size: 20px;
+  }
+  li{
+    margin-top: 10px;
+    list-style: none;
+    line-height: 40px;
+    color: white;
+    }
+    li a {
+      color: #797979;
+  }
+  p{
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+  }
+  }
+   .single-footer input {
+    margin-left: 10px;
+    height: 50px;
+    border: none;
+    width: 70% !important;
+    font-weight: 300;
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .single-footer .click-btn {
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #71cd14;
+    color: #ffffff;
+    border-radius: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 7px 20px;
+    border: 0;
+    position: relative;
+    left: 14rem;
+    top: -30px;
+    transition: all 300ms linear 0s;
+  
+  }
+  .footer-social{
+   
+    font-size: 20px;
+    color: #f6f6f6;
+    margin-top: -35px;
+    margin-left: 60rem;
+  }
+  .main_btn {
+    display: inline-block;
+    background: #71cd14;
+    padding: 0px 32px;
+    letter-spacing: 0.25px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 44px;
+    outline: none !important;
+    box-shadow: none !important;
+    text-align: center;
+    border: 1px solid #71cd14;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 300ms linear 0s;
+    border-radius: 5px;
+    margin :20px ;
+}
+.text{
+    margin-top:-24rem;
+    margin-left: 56rem;
+    line-height: 30px;
+h4{
+    font-family: "Heebo", sans-serif;
+    color: #2a2a2a;
+    font-weight: 500;
+    font-size: 16px;
+}
+ h5{
+    color: #999999;
+    font-size: 13px;
+
+}
+}
+.icon {
+    color: #8f9195;
+    font-size: 27px;
+}
