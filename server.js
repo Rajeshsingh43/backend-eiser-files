@@ -14,10 +14,10 @@ app.use(express.json());
 // Middleware to serve static files
 app.use(express.static(path.join(__dirname, 'public')));
  
-app.get("/", (req,res)=>{
-    res.send("hello world");
+// app.get("/", (req,res)=>{
+//     res.send("hello world");
 
-})
+// })
 app.get("/Home", (req,res)=>{
     res.sendFile(path.resolve(__dirname,"./public","HOME.html"));
 
